@@ -1,0 +1,24 @@
+{
+  "name": "buscador-correios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "tsnd --transpile-only --respawn --ignore-watch node_modules src/app.ts",
+    "build": "tsc --build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "tslint": "^6.1.3",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "correios-brasil": "^3.0.0"
+  }
+}
