@@ -7,5 +7,4 @@ const show = async () => {
   console.table(await tracking(trackingCodes))
 }
 
-// setInterval(exibir, 10000)
-show()
+setInterval(show, 10000)
